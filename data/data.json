@@ -1,1 +1,18 @@
-[{"title": "Gamesplanet", "category": "Games", "crypto": ["BTC"]}]
+[
+    {
+        "title": "Gamesplanet",
+        "category": "Games",
+        "crypto": [
+            "BTC"
+        ]
+    },
+    {
+        "title": "Bitrefill",
+        "category": "",
+        "crypto": [
+            "BTC",
+            "ETH",
+            "LTC"
+        ]
+    }
+]

@@ -10,10 +10,11 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Use Crypto!</h1>
       <p>Websites</p>
       {pages.map(d => (
-        <Link to={d.node.path}>{d.node.context.title}</Link>
+        <div>
+          <Link to={d.node.path}>{d.node.context.title}</Link>
+        </div>
       ))}
     </Layout>
   )
