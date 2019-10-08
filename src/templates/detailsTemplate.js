@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -8,7 +8,7 @@ export default function Template({
   return (
     <Layout>
       <h1>{content.title}</h1>
-      <a href={content.link}>Visit</a>
+      <a target="_blank" rel="noopener noreferrer" href={content.link}>Visit</a>
     </Layout>
   )
 }

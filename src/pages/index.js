@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => {
@@ -10,7 +9,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <p>Websites</p>
+      <h2>Websites</h2>
       {pages.map(d => (
         <div>
           <Link to={d.node.path}>{d.node.context.title}</Link>
