@@ -1,6 +1,7 @@
 [
     {
         "title": "Gamesplanet",
+        "link": "https://gamesplanet.com",
         "category": "Games",
         "crypto": [
             "BTC"
@@ -8,6 +9,7 @@
     },
     {
         "title": "Bitrefill",
+        "link": "https://www.bitrefill.com",
         "category": "",
         "crypto": [
             "BTC",
