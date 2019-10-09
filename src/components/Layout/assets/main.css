@@ -1,0 +1,146 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes shine {
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1120px;
+  font-family: Inter;
+}
+
+.wrapper .title {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 112px;
+  font-weight: 800;
+  color: #4149dd;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(
+      to right,
+      #4149dd 20%,
+      #8755f1 40%,
+      #8755f1 60%,
+      #4149dd 80%
+    )
+    repeat scroll 0% 0% / 200% padding-box text;
+
+  -webkit-text-fill-color: transparent;
+  animation: 12s linear 0s infinite normal none running shine;
+}
+
+.wrapper .list {
+  margin-top: 6rem;
+  border-radius: 4px;
+  border: solid 2px #4149dd;
+  color: rgb(33, 43, 54);
+  font-size: 24px;
+}
+
+.list .entry {
+  padding: 1rem;
+}
+
+.list .entry + .entry {
+  border-top: solid 2px #4149dd;
+}
+
+.list .entry:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 8px;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.wrapper-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding-bottom: 10rem;
+}
+
+.wrapper-error .title {
+  font-size: 112px;
+  font-weight: 800;
+}

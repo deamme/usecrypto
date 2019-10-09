@@ -1,9 +1,9 @@
 import React from "react"
-import Entry from "../components/Entry"
+import Entry from "./Entry"
 
 export default function EntryList({ entries }) {
   return (
-    <div>
+    <div className="list">
       {entries.map(e => (
         <Entry entry={e} />
       ))}

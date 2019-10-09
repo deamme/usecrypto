@@ -1,7 +1,7 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+// import SEO from "../components/seo"
 import EntryList from "../components/EntryList"
 
 const data = require("../../data/data.json")
@@ -9,8 +9,7 @@ const data = require("../../data/data.json")
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home" />
-      <h2>Websites</h2>
+      <h1 className="title">Use Crypto</h1>
       <EntryList entries={data} />
     </Layout>
   )
