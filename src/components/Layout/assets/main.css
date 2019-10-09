@@ -95,16 +95,15 @@ select {
   font-size: 112px;
   font-weight: 800;
   color: #4149dd;
-  background: rgba(0, 0, 0, 0)
-    linear-gradient(
-      to right,
-      #4149dd 20%,
-      #8755f1 40%,
-      #8755f1 60%,
-      #4149dd 80%
-    )
-    repeat scroll 0% 0% / 200% padding-box text;
-
+  background-image: linear-gradient(
+    to right,
+    #4149dd 20%,
+    #8755f1 40%,
+    #8755f1 60%,
+    #4149dd 80%
+  );
+  background-size: 200%;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: 12s linear 0s infinite normal none running shine;
 }
