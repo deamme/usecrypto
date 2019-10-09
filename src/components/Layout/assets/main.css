@@ -119,6 +119,7 @@ select {
 
 .list .entry {
   padding: 1rem;
+  transition: all 100ms ease 0s;
 }
 
 .list .entry + .entry {
