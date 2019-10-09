@@ -117,6 +117,9 @@ select {
 }
 
 .list .entry {
+  display: block;
+  text-decoration: none;
+  color: rgb(33, 43, 54);
   padding: 1rem;
   transition: all 100ms ease 0s;
 }
