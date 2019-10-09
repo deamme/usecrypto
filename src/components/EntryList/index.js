@@ -27,8 +27,6 @@ export default function EntryList({ entries }) {
     })
   }
 
-  console.log(selected.crypto)
-
   return (
     <div>
       <Filter
