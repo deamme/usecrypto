@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "usecrypto",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A list of resources where you can spend your ETH, DAI etc. ",
   "version": "0.1.0",
   "dependencies": {
     "@aragon/ui": "^0.40.2",
@@ -17,7 +17,7 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "crypto", "gatsby"
   ],
   "license": "MIT",
   "scripts": {

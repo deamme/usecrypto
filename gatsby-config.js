@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Use Crypto`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `A list of resources where you can spend your ETH, DAI etc.`,
     author: `@gatsbyjs`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
