@@ -10,5 +10,23 @@
     "link": "https://www.bitrefill.com",
     "category": "Gift Cards",
     "crypto": ["BTC", "ETH", "LTC"]
+  },
+  {
+  	"title": "Alagoria",
+    "link": "https://www.alagoria.com",
+    "category": "Shopping",
+    "crypto": ["BTC", "BCH", "LTC","ZEC"]
+  },
+  {
+  	"title": "Overstock",
+    "link": "https://www.overstock.com",
+    "category": "Shopping",
+    "crypto": ["BTC", "ETC", "DASH","NIM","XRM","LTC","NEM"]
+  },
+  {
+  	"title": "Laptop Power Bank",
+    "link": "https://www.laptoppowerbank.com",
+    "category": "Electronics",
+    "crypto": ["BTC", "XRM", "LTC","SBD","XVG","DGB","DOGE","SMART","NEO","VTC","UBQ"]
   }
 ]
