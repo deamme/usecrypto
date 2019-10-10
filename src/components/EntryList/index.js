@@ -3,7 +3,9 @@ import Entry from "./Entry"
 import Filter from "../Filter"
 
 export default function EntryList({ entries }) {
-  const categories = [...new Set(entries.map(e => e.category))]
+  const categories = [
+    ...new Set(entries.map(e => e.categories).reduce((a, b) => a.concat(b))),
+  ]
   const crypto = [
     ...new Set(entries.map(e => e.crypto).reduce((a, b) => a.concat(b))),
   ]
@@ -52,7 +54,7 @@ export default function EntryList({ entries }) {
               (selected.crypto.length == 0 ||
                 selected.crypto.some(c => e.crypto.includes(c.label))) &&
               (selected.categories.length == 0 ||
-                selected.categories.some(c => e.category == c.label))
+                selected.categories.some(c => e.categories.includes(c.label)))
           )
           .sort((a, b) => a.title.localeCompare(b.title))
           .map((e, index) => (

@@ -2,31 +2,43 @@
   {
     "title": "Gamesplanet",
     "link": "https://gamesplanet.com",
-    "category": "Games",
+    "categories": ["Games"],
     "crypto": ["BTC"]
   },
   {
     "title": "Bitrefill",
     "link": "https://www.bitrefill.com",
-    "category": "Gift Cards",
+    "categories": ["Gift Cards"],
     "crypto": ["BTC", "ETH", "LTC"]
   },
   {
-  	"title": "Alagoria",
+    "title": "Alagoria",
     "link": "https://www.alagoria.com",
-    "category": "Shopping",
-    "crypto": ["BTC", "BCH", "LTC","ZEC"]
+    "categories": ["Shopping"],
+    "crypto": ["BTC", "BCH", "LTC", "ZEC"]
   },
   {
-  	"title": "Overstock",
+    "title": "Overstock",
     "link": "https://www.overstock.com",
-    "category": "Shopping",
-    "crypto": ["BTC", "ETC", "DASH","NIM","XRM","LTC","NEM"]
+    "categories": ["Shopping"],
+    "crypto": ["BTC", "ETC", "DASH", "NIM", "XRM", "LTC", "NEM"]
   },
   {
-  	"title": "Laptop Power Bank",
+    "title": "Laptop Power Bank",
     "link": "https://www.laptoppowerbank.com",
-    "category": "Electronics",
-    "crypto": ["BTC", "XRM", "LTC","SBD","XVG","DGB","DOGE","SMART","NEO","VTC","UBQ"]
+    "categories": ["Shopping", "Electronics"],
+    "crypto": [
+      "BTC",
+      "XRM",
+      "LTC",
+      "SBD",
+      "XVG",
+      "DGB",
+      "DOGE",
+      "SMART",
+      "NEO",
+      "VTC",
+      "UBQ"
+    ]
   }
 ]
