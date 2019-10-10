@@ -29,18 +29,37 @@
     "categories": ["E-commerce"],
     "crypto": ["BTC"]
   },
-{
+  {
     "title": "Newegg",
     "link": "https://www.newegg.com",
     "categories": ["Electronics"],
     "crypto": ["BTC"]
   },
-{
+  {
     "title": "Travala",
     "link": "https://www.travala.com",
     "categories": ["Booking"],
-    "crypto": ["BTC", "XRP", "BNB"]
-},
+    "crypto": [
+      "ETH",
+      "DAI",
+      "BTC",
+      "XRP",
+      "BNB",
+      "AVA",
+      "DASH",
+      "DGB",
+      "XMR",
+      "BCH",
+      "NEO",
+      "NANO",
+      "XZC",
+      "TRX",
+      "EOS",
+      "WAVES",
+      "KCS",
+      "LTC"
+    ]
+  },
   {
     "title": "Alagoria",
     "link": "https://www.alagoria.com",
@@ -70,6 +89,5 @@
       "VTC",
       "UBQ"
     ]
-
   }
 ]
