@@ -12,6 +12,36 @@
     "crypto": ["BTC", "ETH", "LTC"]
   },
   {
+    "title": "Belovedshirts",
+    "link": "https://www.belovedshirts.com",
+    "categories": ["E-commerce"],
+    "crypto": ["BTC"]
+  },
+  {
+    "title": "Enclavemfg",
+    "link": "https://www.enclavemfg.com",
+    "categories": ["E-commerce"],
+    "crypto": ["BTC"]
+  },
+  {
+    "title": "Tortuga",
+    "link": "https://www.tortugabackpacks.com",
+    "categories": ["E-commerce"],
+    "crypto": ["BTC"]
+  },
+{
+    "title": "Newegg",
+    "link": "https://www.newegg.com",
+    "categories": ["Electronics"],
+    "crypto": ["BTC"]
+  },
+{
+    "title": "Travala",
+    "link": "https://www.travala.com",
+    "categories": ["Booking"],
+    "crypto": ["BTC", "XRP", "BNB"]
+},
+  {
     "title": "Alagoria",
     "link": "https://www.alagoria.com",
     "categories": ["Shopping"],
@@ -40,5 +70,6 @@
       "VTC",
       "UBQ"
     ]
+
   }
 ]
