@@ -29,19 +29,23 @@ export default function EntryList({ entries }) {
 
   return (
     <div>
-      <Filter
-        name="categories"
-        options={categories}
-        onChange={updateCategories}
-        value={selected.categories}
-      />
-      <Filter
-        name="cryptos"
-        options={crypto}
-        onChange={updateCrypto}
-        value={selected.crypto}
-      />
       <div className="list">
+        <div className="list-header">
+          <Filter
+            name="categories"
+            placeholder="Categories"
+            options={categories}
+            onChange={updateCategories}
+            value={selected.categories}
+          />
+          <Filter
+            name="cryptos"
+            placeholder="Cryptos"
+            options={crypto}
+            onChange={updateCrypto}
+            value={selected.crypto}
+          />
+        </div>
         {entries
           .filter(
             e =>

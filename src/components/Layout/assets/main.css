@@ -134,6 +134,25 @@ select {
   cursor: pointer;
 }
 
+.list-header {
+  display: flex;
+  font-size: 18px;
+  padding: 1rem;
+  border-bottom: solid 2px #4149dd;
+}
+
+.react-select-container {
+  width: 100%;
+}
+
+.react-select-container:first-child {
+  margin-right: 1rem;
+}
+
+.react-select__control--is-focused {
+  border-color: #8755f1 !important;
+}
+
 .wrapper-error {
   display: flex;
   justify-content: center;
