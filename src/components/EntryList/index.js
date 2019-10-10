@@ -18,14 +18,14 @@ export default function EntryList({ entries }) {
   const updateCategories = e => {
     setSelected({
       ...selected,
-      categories: e,
+      categories: e ? e : [],
     })
   }
 
   const updateCrypto = e => {
     setSelected({
       ...selected,
-      crypto: e,
+      crypto: e ? e : [],
     })
   }
 
