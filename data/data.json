@@ -89,5 +89,11 @@
       "VTC",
       "UBQ"
     ]
+  },
+  {
+    "title": "OpenBazaar",
+    "link": "https://openbazaar.org",
+    "categories": ["E-commerce","Shopping"],
+    "crypto": ["BTC"]
   }
 ]
