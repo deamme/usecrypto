@@ -166,3 +166,22 @@ select {
   font-size: 112px;
   font-weight: 800;
 }
+
+@media only screen and (max-width: 560px) {
+  .wrapper .title {
+    font-size: 45px;
+  }
+
+  .list-header {
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .wrapper .list {
+    font-size: 20px;
+  }
+
+  .react-select-container:first-child {
+    margin-bottom: 20px;
+  }
+}
