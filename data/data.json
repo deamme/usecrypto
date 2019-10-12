@@ -95,5 +95,11 @@
     "link": "https://openbazaar.org",
     "categories": ["E-commerce","Shopping"],
     "crypto": ["BTC"]
+  },
+  {
+    "title": "Namecheap",
+    "link": "https://www.namecheap.com",
+    "categories": ["Domain Registration","Web Hosting"],
+    "crypto": ["BTC"]
   }
 ]
