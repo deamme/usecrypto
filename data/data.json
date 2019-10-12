@@ -70,7 +70,7 @@
     "title": "Overstock",
     "link": "https://www.overstock.com",
     "categories": ["Shopping"],
-    "crypto": ["BTC", "ETC", "DASH", "NIM", "XRM", "LTC", "NEM"]
+    "crypto": ["BTC", "ETH", "ETC", "DASH", "NIM", "XRM", "LTC", "NEM"]
   },
   {
     "title": "Laptop Power Bank",
@@ -78,6 +78,7 @@
     "categories": ["Shopping", "Electronics"],
     "crypto": [
       "BTC",
+      "ETH",
       "XRM",
       "LTC",
       "SBD",
@@ -93,13 +94,25 @@
   {
     "title": "OpenBazaar",
     "link": "https://openbazaar.org",
-    "categories": ["E-commerce","Shopping"],
+    "categories": ["E-commerce", "Shopping"],
     "crypto": ["BTC"]
   },
   {
     "title": "Namecheap",
     "link": "https://www.namecheap.com",
-    "categories": ["Domain Registration","Web Hosting"],
+    "categories": ["Domain Registration", "Web Hosting"],
+    "crypto": ["BTC"]
+  },
+  {
+    "title": "NordVPN",
+    "link": "https://nordvpn.com",
+    "categories": ["VPN"],
+    "crypto": ["BTC", "ETH", "LTC", "DASH", "BTT", "TRX", "ZEC"]
+  },
+  {
+    "title": "ProtonMail",
+    "link": "https://protonmail.com",
+    "categories": ["Email"],
     "crypto": ["BTC"]
   }
 ]
