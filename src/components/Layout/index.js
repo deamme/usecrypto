@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet"
 
 import "./assets/main.css"
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <div className="wrapper">
     <Helmet>
       <meta charSet="utf-8" />
@@ -18,3 +18,5 @@ export default ({ children }) => (
     {children}
   </div>
 )
+
+export default Layout;

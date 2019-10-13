@@ -18,14 +18,14 @@ export default function EntryList({ entries }) {
   const updateCategories = e => {
     setSelected({
       ...selected,
-      categories: e ? e : [],
+      categories: e || [],
     })
   }
 
   const updateCrypto = e => {
     setSelected({
       ...selected,
-      crypto: e ? e : [],
+      crypto: e || [],
     })
   }
 
@@ -51,9 +51,9 @@ export default function EntryList({ entries }) {
         {entries
           .filter(
             e =>
-              (selected.crypto.length == 0 ||
+              (selected.crypto.length === 0 ||
                 selected.crypto.some(c => e.crypto.includes(c.label))) &&
-              (selected.categories.length == 0 ||
+              (selected.categories.length === 0 ||
                 selected.categories.some(c => e.categories.includes(c.label)))
           )
           .sort((a, b) => a.title.localeCompare(b.title))

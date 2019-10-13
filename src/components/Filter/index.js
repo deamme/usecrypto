@@ -13,7 +13,7 @@ export default function Filter({
       className="react-select-container"
       classNamePrefix="react-select"
       placeholder={placeholder}
-      isMulti={true}
+      isMulti
       name={name}
       onChange={onChange}
       value={value}
