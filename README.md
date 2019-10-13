@@ -18,12 +18,12 @@ The list of all currently known websites are listed under `data/data.json`
 
 Fork the repo and add any websites that are not in the list with the following format
 ```json
-  {
+{
     "title": "<Title name goes here>",
     "link": "<link to website goes here>",
     "categories": ["<single or multiple catagories seperated with commas>"],
     "crypto": ["<single or multiple accepted cryptos seperated with commas"]
-  }
+}
 ```
 For example:
 ```json
@@ -44,6 +44,6 @@ For example:
       "VTC",
       "UBQ"
     ]
-  }
+}
 ```
 Then create a pull request to update the list.
