@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+cache:
+  directories:
+  - node_modules
+
+before_script:
+  - "npm i -g gatsby-cli"
+
+script:
+  - npm test
+  - gatsby build
