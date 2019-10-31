@@ -114,5 +114,11 @@
     "link": "https://protonmail.com",
     "categories": ["Email"],
     "crypto": ["BTC"]
+  },
+  {
+    "title": "EthHub Swag Shop",
+    "link": "https://shop.ethhub.io",
+    "categories": ["E-commerce", "Shopping"],
+    "crypto": ["ETH"]
   }
 ]
