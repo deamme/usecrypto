@@ -167,6 +167,20 @@ select {
   font-weight: 800;
 }
 
+@media only screen and (max-width: 1150px) {
+  .wrapper .list {
+    margin: 6rem 3rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .wrapper .title {
+    font-size: 60px;
+  }
+  .wrapper .list {
+    margin: 6rem 2rem;
+  }
+}
+
 @media only screen and (max-width: 560px) {
   .wrapper .title {
     font-size: 45px;
@@ -183,5 +197,20 @@ select {
 
   .react-select-container:first-child {
     margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .wrapper .title {
+    font-size: 35px;
+  }
+
+  .wrapper .list {
+    font-size: 16px;
+  }
+  .react-select__multi-value {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }
