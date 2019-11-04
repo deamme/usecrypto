@@ -121,5 +121,29 @@
     "link": "https://shop.ethhub.io",
     "categories": ["E-commerce", "Shopping"],
     "crypto": ["ETH"]
+  },
+  {
+    "title": "Ethporeum",
+    "link": "https://swag.ethereum.org/",
+    "categories": ["E-commerce", "Shopping"],
+    "crypto": ["ETH", "BTC"]
+  },
+  {
+    "title": "Ledger",
+    "link": "https://www.ledger.com/",
+    "categories": ["Hardware Wallets"],
+    "crypto": ["BTC"]
+  },
+  {
+    "title": "Trezor",
+    "link": "https://trezor.io/",
+    "categories": ["Hardware Wallets"],
+    "crypto": ["BTC"]
+  },
+  {
+    "title": "Snel",
+    "link": "https://www.snel.com/",
+    "categories": ["Hosting"],
+    "crypto": ["BTC", "ETH", "LTC", "XRP", "DASH", "NEO"]
   }
 ]
