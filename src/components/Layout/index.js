@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
         property="og:description"
         content="A list of resources where you can spend your ETH, BTC, DAI etc."
       />
-      <meta property="og:image" content="https://webshot.deam.io/usecrypto.xyz" />
+      <meta property="og:image" content="https://webshot.deam.io/usecrypto.xyz?width=1200&height=630" />
 
       {/** Twitter  **/}
       <meta property="twitter:card" content="summary_large_image" />
@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
         property="twitter:description"
         content="A list of resources where you can spend your ETH, BTC, DAI etc."
       />
-      <meta property="twitter:image" content="https://webshot.deam.io/usecrypto.xyz" />
+      <meta property="twitter:image" content="https://webshot.deam.io/usecrypto.xyz?width=1200&height=630" />
 
       <link
         rel="stylesheet"
